@@ -1,0 +1,10 @@
+body {
+    border-style: dotted;
+    border-width: 15px;
+    border-color: yellow;
+}
+
+.countingStyling{
+    font-size: 26px;
+    font-weight: 800;
+}

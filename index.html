@@ -1,0 +1,49 @@
+<html>
+<head lang="en-us">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="container ">
+        <div class="row">
+            <div class ="col-md-12">
+                <h1>Negg Game</h1>
+                <div>
+                    <p>You will be given a random number at the start of the game.</p>
+
+                    <p>There are four Neggs below. By clicking on a Negg, you will add a specific amount of points to your total score.</p> 
+
+                    <p>You win the game by matching your total score to the random number that was generating at the beginning of the game. You lose the game if your total score goes above that number.</p>
+
+                    <p>The value of each Negg is hidden from you until you click on it.</p> 
+
+                    <p>Each time when the game starts, the game will change the values of each Negg.</p>
+                </div>
+                <div class = "row">
+                    <div class = "col-xs-6 col-md-3">    
+                        <img class="negg" id="negg1" src ="assets/images/negg1.png">
+                    </div>
+                    <div class = "col-xs-6 col-md-3">    
+                        <img class="negg" id="negg2" src ="assets/images/negg2.png">
+                    </div>
+                    <div class = "col-xs-6 col-md-3">     
+                        <img class="negg" id="negg3" src ="assets/images/negg3.png">
+                    </div>  
+                    <div class = "col-xs-6 col-md-3">   
+                        <img class="negg" id="negg4" src ="assets/images/negg4.png">
+                    </div>
+                </div>        
+                <p class="countingStyling">Negg Number: <span id="neggNumber"></span></p>
+                <p class="countingStyling">Your Number: <span id="yourNumber"></span></p>
+                <p class="countingStyling">Wins: <span id="wins"></span></p>
+                <p class="countingStyling">Losses: <span id="losses"></span></p>
+            </div>    
+        </div>
+    </div>
+</body>
+</html>
